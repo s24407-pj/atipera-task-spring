@@ -1,4 +1,12 @@
 package org.demo.atiperataskspring.model.response;
 
-public record RepositoryResponse() {
+import org.demo.atiperataskspring.model.Branch;
+
+import java.util.List;
+
+public record RepositoryResponse(
+        String name,
+        String owner,
+        List<Branch> branches
+) {
 }

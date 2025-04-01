@@ -1,1 +1,6 @@
-spring.application.name=atipera-task-spring
+spring:
+  application:
+    name: "atipera-task-spring"
+github:
+  api:
+    url: "https://api.github.com"
